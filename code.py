@@ -30,7 +30,7 @@ while True:
 
         #   Criar o e-mail
         msg = EmailMessage()
-        msg['Subject'] = 'Email do josé'
+        msg['Subject'] = 'Título do email.'
         msg['From'] = EMAIL_ADDRESS
         msg['To'] = ALVO_ADDRESS
         msg.set_content(ALVO_MESSAGE)
